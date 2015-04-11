@@ -69,7 +69,15 @@
 
             <div class="col-lg-3 col-md-4 col-xs-6 thumb">
                 <a class="thumbnail" href="shop.php">
-                    <img class="img-responsive" src="images/categories/shop.jpg"  alt="">
+                <div class="wrapper">
+            <img class="img-responsive" src="images/categories/personal.jpg"  alt="">
+                 <div class="overlay">
+                  <h2 class="oneline">Perfectly Personal</h2>
+      
+                 </div>
+                </div>
+                    
+                    
                 </a>
             </div>
             <div class="col-lg-3 col-md-4 col-xs-6 thumb">

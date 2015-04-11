@@ -9,6 +9,7 @@
         <!-- Bootstrap -->
         <link href="css/bootstrap.min.css" rel="stylesheet">
         <link href="css/shop.css" rel="stylesheet">
+         <link href="css/thumbnail-gallery.css" rel="stylesheet">
         <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
         <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
         <!--[if lt IE 9]>
@@ -105,14 +106,54 @@
                         </div>
                         <div><h3>Products</h3></div>
 
-                        <div class="col-md-6 "><h3>Product 1</h3></div>
-                        <div class="col-md-6 "><h3>Product 2</h3></div>
-                        <div class="col-md-6 "><h3>Product 3</h3></div>
-                        <div class="col-md-6 "><h3>Product 4</h3></div>
-                        <div class="col-md-6 "><h3>Product 5</h3></div>
-                        <div class="col-md-6 "><h3>Product 6</h3></div>
-                        <div class="col-md-6 "><h3>Product 7</h3></div>
-                        <div class="col-md-6 "><h3>Product 8</h3></div>
+                        <div class="col-xs-6 thumb">
+                        <a class="thumbnail" href="#">
+                        <img class="img-responsive" src="images/Personal/orbitkey.jpg" alt="">
+                        <div class="info"><p>Product Name</p><p>$PRICE</p></div>
+                        </a>
+                        </div>
+                        <div class="col-xs-6 thumb">
+                        <a class="thumbnail" href="#">
+                        <img class="img-responsive" src="images/Personal/orbitkey.jpg" alt="">
+                         <div class="info"><p>Product Name</p><p>$PRICE</p></div>
+                        </a>
+                        </div>
+                        <div class="col-xs-6 thumb">
+                        <a class="thumbnail" href="#">
+                        <img class="img-responsive" src="images/Personal/orbitkey.jpg" alt="">
+                         <div class="info"><p>Product Name</p><p>$PRICE</p></div>
+                        </a>
+                        </div>
+                        <div class="col-xs-6 thumb">
+                        <a class="thumbnail" href="#">
+                        <img class="img-responsive" src="images/Personal/orbitkey.jpg" alt="">
+                         <div class="info"><p>Product Name</p><p>$PRICE</p></div>
+                        </a>
+                        </div>
+                        <div class="col-xs-6 thumb">
+                        <a class="thumbnail" href="#">
+                        <img class="img-responsive" src="images/Personal/orbitkey.jpg" alt="">
+                         <div class="info"><p>Product Name</p><p>$PRICE</p></div>
+                        </a>
+                        </div>
+                        <div class="col-xs-6 thumb">
+                        <a class="thumbnail" href="#">
+                        <img class="img-responsive" src="images/Personal/orbitkey.jpg" alt="">
+                         <div class="info"><p>Product Name</p><p>$PRICE</p></div>
+                        </a>
+                        </div>
+                        <div class="col-xs-6 thumb">
+                        <a class="thumbnail" href="#">
+                        <img class="img-responsive" src="images/Personal/orbitkey.jpg" alt="">
+                         <div class="info"><p>Product Name</p><p>$PRICE</p></div>
+                        </a>
+                        </div>
+                        <div class="col-xs-6 thumb">
+                        <a class="thumbnail" href="#">
+                        <img class="img-responsive" src="images/Personal/orbitkey.jpg" alt="">
+                         <div class="info"><p>Product Name</p><p>$PRICE</p></div>
+                        </a>
+                        </div>
 
                     </div>
                 </div>
