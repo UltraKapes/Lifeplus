@@ -47,8 +47,8 @@
         <div class="container">
             <div id="mainpage">
                 <div class="row">
-                    <div class="col-md-3 bordercheck"><h3>Shop Veritcal Navbar</h3>
-                     <ul>
+                    <div class="col-md-3"><h3>Shop Veritcal Navbar</h3>
+                        <ul>
                             <li><a href="#">Category 1</a></li>
                             <li><a href="#">Category 2</a></li>
                             <li><a href="#">Category 3</a></li>
@@ -56,7 +56,7 @@
                             <li><a href="#">Category 5</a></li>
                         </ul>
                     </div>
-                    <div id="products"class="col-md-9 bordercheck">
+                    <div id="products"class="col-md-9">
                         <div class="row">
                             <div id="carousel" class="carousel slide" data-ride="carousel" >
                                 <!-- Menu -->
@@ -68,13 +68,31 @@
                                 <!-- Items -->
                                 <div class="carousel-inner">
                                     <div class="item active">
-                                        <img src="http://lorempixel.com/1500/600/abstract/1" alt="Slide 1" />
+                                        <a href="#">
+                                        <img src="http://placehold.it/1500x600" alt="Slide 1" />
+                                        <div class="container"><div class="carousel-caption">
+                                        <h3>Awesome Product !</h3>
+                                        <p>dont miss out</p></div>
+                                        </div>
+                                        </a>
                                     </div>
                                     <div class="item">
-                                        <img src="http://lorempixel.com/1500/600/abstract/2" alt="Slide 2" />
+                                      <a href="#">
+                                        <img src="http://placehold.it/1500x600" alt="Slide 2" />
+                                         <div class="container"><div class="carousel-caption">
+                                        <h3>Another awesome Product !</h3>
+                                        <p>you can't be serious :)</p></div>
+                                        </div>
+                                        </a>
                                     </div>
                                     <div class="item">
-                                        <img src="http://lorempixel.com/1500/600/abstract/3" alt="Slide 3" />
+                                    <a href="#">
+                                        <img src="http://placehold.it/1500x600" alt="Slide 3" />
+                                         <div class="container"><div class="carousel-caption">
+                                        <h3>Ok now this is just getting crazy !</h3>
+                                        <p>SO MANY DEALS !!</p></div>
+                                        </div>
+                                        </a>
                                     </div>
                                 </div>
                                 <a href="#carousel" class="left carousel-control" data-slide="prev">
@@ -84,21 +102,18 @@
                                 <span class="glyphicon glyphicon-chevron-right"></span>
                                 </a>
                             </div>
-
                         </div>
-
                         <div><h3>Products</h3></div>
-                        <div class="row">
-                            <div class="col-md-6 bordercheck"><h3>Product 1</h3></div>
-                            <div class="col-md-6 bordercheck"><h3>Product 2</h3></div>
-                            <div class="col-md-6 bordercheck"><h3>Product 3</h3></div>
-                            <div class="col-md-6 bordercheck"><h3>Product 4</h3></div>
-                            <div class="col-md-6 bordercheck"><h3>Product 5</h3></div>
-                            <div class="col-md-6 bordercheck"><h3>Product 6</h3></div>
-                            <div class="col-md-6 bordercheck"><h3>Product 7</h3></div>
-                            <div class="col-md-6 bordercheck"><h3>Product 8</h3></div>
 
-                        </div>
+                        <div class="col-md-6 "><h3>Product 1</h3></div>
+                        <div class="col-md-6 "><h3>Product 2</h3></div>
+                        <div class="col-md-6 "><h3>Product 3</h3></div>
+                        <div class="col-md-6 "><h3>Product 4</h3></div>
+                        <div class="col-md-6 "><h3>Product 5</h3></div>
+                        <div class="col-md-6 "><h3>Product 6</h3></div>
+                        <div class="col-md-6 "><h3>Product 7</h3></div>
+                        <div class="col-md-6 "><h3>Product 8</h3></div>
+
                     </div>
                 </div>
                 <div class="row">
@@ -106,64 +121,25 @@
                 </div>
             </div>
         </div>
-
-        <!-- <div class="row">
-                                <div class="col-md-12"><h3>Shop</h3></div>
-                                
-                        </div>
-                        <div id="carousel" class="carousel slide" data-ride="carousel" >
-            <!-- Menu -->
-            <!-- <ol class="carousel-indicators">
-                                                <li data-target="#carousel" data-slide-to="0" class="active"></li>
-                                                <li data-target="#carousel" data-slide-to="1"></li>
-                                                <li data-target="#carousel" data-slide-to="2"></li>
-                                    </ol>
-            <!-- Items -->
-            <!--  <div class="carousel-inner">
-                                                <div class="item active">
-                                                            <img src="http://lorempixel.com/1500/600/abstract/1" alt="Slide 1" />
-                                                </div>
-                                                <div class="item">
-                                                            <img src="http://lorempixel.com/1500/600/abstract/2" alt="Slide 2" />
-                                                </div>
-                                                <div class="item">
-                                                            <img src="http://lorempixel.com/1500/600/abstract/3" alt="Slide 3" />
-                                                </div>
-                                    </div>
-                                    <a href="#carousel" class="left carousel-control" data-slide="prev">
-                                    <span class="glyphicon glyphicon-chevron-left"></span>
-                                    </a>
-                                    <a href="#carousel" class="right carousel-control" data-slide="next">
-                                    <span class="glyphicon glyphicon-chevron-right"></span>
-                                    </a>
-                        </div>
-            </div>
-        </div>
-        <div class="container">
-            <div class="row">
-                        <div class="col-lg-4 bg-success"><img src="http://lorempixel.com/1500/600/abstract/3" alt="Slide 3" width="50" height="50"/></div>
-                        <div class="col-lg-4 bg-danger">2</div>
-                        <div class="col-lg-4 bg-success">3</div>
-            </div>
-</div> -->
-<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-<!-- Include all compiled plugins (below), or include individual files as needed -->
-<script src="js/bootstrap.min.js"></script>
-<script>
-                            $(document).ready(function(){
-                                console.log($('#topnavbar').height());
-                                $('#mainpage').css('padding-top', $('#topnavbar').height() + 10);
-                                $(window).resize(function(){
-                                    console.log($('#topnavbar').height());
-                                    $('#mainpage').css('padding-top', $('#topnavbar').height() + 10);
-                                });
-                            });
-</script>
-<script>
-        $('.carousel').carousel({
-        interval: 10000;
-        });
-</script>
+    </div> -->
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script>
+                                    $(document).ready(function(){
+                                        console.log($('#topnavbar').height());
+                                        $('#mainpage').css('padding-top', $('#topnavbar').height() + 10);
+                                        $(window).resize(function(){
+                                            console.log($('#topnavbar').height());
+                                            $('#mainpage').css('padding-top', $('#topnavbar').height() + 10);
+                                        });
+                                    });
+    </script>
+    <script>
+                $('.carousel').carousel({
+                interval: 10000;
+                });
+    </script>
 </body>
 </html>

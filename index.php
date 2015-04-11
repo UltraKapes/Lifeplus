@@ -34,7 +34,7 @@
 			<div id="nav">
 				<ul>
 				
-					<li><a href="shop.php">Explore</a></li>
+					<li><a href="categories.php">Explore</a></li>
 					<li><a href="#">Login</a></li>
 				
 				</ul>
