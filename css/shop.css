@@ -138,6 +138,51 @@ a:hover {
     padding-top: 25px;
   }
 
-  #mainpage{padding-top: 25px;}
+#mainpage{
 
-#banner{overflow: hidden;}
+  padding-top: 25px;
+}
+
+#banner{
+
+  overflow: hidden;
+}
+
+.no-gutter > [class*='col-'] {
+
+    padding-right:0;
+    padding-left:0;
+}
+
+.upsellinfo{
+
+position: relative;
+float: left;
+}
+
+.pushdown{
+
+  padding-top: 10%;
+}
+
+
+.productname p{
+
+  font-size: 3em;
+  margin-bottom: 20px;
+}
+
+#aboutproduct h2{
+  
+  font-size: 1.5em;
+}
+
+#aboutproduct h3{
+  
+  font-size: 1.25em;
+}
+
+#productpriceandcart h3{
+
+  font-size: 1.5em;
+}
