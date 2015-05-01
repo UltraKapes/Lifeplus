@@ -271,3 +271,9 @@ font-size: 2em;
   margin-left: 2%;
 }
 
+.container{
+
+  width: auto;
+  margin-right: 50px;
+  margin-left: 50px;
+}
