@@ -6,6 +6,8 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
         <title>Perfectly Personal</title>
+         <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
         <!-- Bootstrap -->
         <link href="css/bootstrap.min.css" rel="stylesheet">
         <link href="css/shop.css" rel="stylesheet">
@@ -54,11 +56,24 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div id="productpics"class="col-md-4 ">
-                        <div class="thumb">
-                            <img class="img-responsive" src="images/Personal/orbitkey.jpg"  width="500" alt="">
-                        </div>
+                   <div id="productpics"class="col-md-4 ">
+                      <div id="panel"class="thumb">
+                            <img id="largeImage" class="img-responsive" src="images/Personal/orbitkey.jpg"  width="500" height="500" alt="" />
                     </div>
+                    <div id="thumbs">
+                    <img src="images/Personal/personal.jpg"  width="100" alt="1st image description" />
+                    <img src="images/Personal/orbitkey.jpg"  width="100"  alt="2nd image description" />
+                    <img src="images/Personal/orbitkey.jpg"  width="100" alt="3rd image description" />
+
+                    <script type="text/javascript">
+                    $('#thumbs img').click(function(){
+                    $('#largeImage').attr('src',$(this).attr('src'));
+                    });
+                    </script>
+                    
+              </div>
+            </div>
+                    
                     <div id="productdescription"class="col-md-4 ">
                         <div id="aboutproduct" >
                             <h2>Black with Tan Stitching Leather</h2><br>
@@ -95,30 +110,30 @@
                     </div>
                 </div>
             </div>
-            <div class="row">
+            <div id="related" class="row">
+            <hr/>
                 <h2>Related Products</h2><br>
                 <div id="productpics"class="col-md-2 upsellinfo">
-                    <img class="img-responsive " src="images/Personal/orbitkey.jpg"  width="100" alt="">
+                    <img class="img-responsive " src="images/Personal/orbitkey.jpg"  width="200" alt="">
                 </div>
                 <div id="productpics"class="col-md-2 upsellinfo">
-                    <img class="img-responsive " src="images/Personal/orbitkey.jpg"  width="100" alt="">
+                    <img class="img-responsive " src="images/Personal/orbitkey.jpg"  width="200" alt="">
                 </div>
                 <div id="productpics"class="col-md-2 upsellinfo">
-                    <img class="img-responsive" src="images/Personal/orbitkey.jpg"  width="100"  alt="">
+                    <img class="img-responsive" src="images/Personal/orbitkey.jpg"  width="200"  alt="">
                 </div>
                 <div id="productpics"class="col-md-2 upsellinfo">
-                    <img class="img-responsive" src="images/Personal/orbitkey.jpg"  width="100" alt="">
+                    <img class="img-responsive" src="images/Personal/orbitkey.jpg"  width="200" alt="">
                 </div>
                 <div id="productpics"class="col-md-2 upsellinfo">
-                    <img class="img-responsive" src="images/Personal/orbitkey.jpg" width="100" alt="">
+                    <img class="img-responsive" src="images/Personal/orbitkey.jpg" width="200" alt="">
                 </div>
                 <div id="productpics"class="col-md-2 upsellinfo">
-                    <img class="img-responsive" src="images/Personal/orbitkey.jpg"  width="100" alt="">
+                    <img class="img-responsive" src="images/Personal/orbitkey.jpg"  width="200" alt="">
                 </div>
             </div>
         </div>
-        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+
         <!-- Include all compiled plugins (below), or include individual files as needed -->
         <script src="js/bootstrap.min.js"></script>
         <script src="js/simpleCart.min.js"></script>

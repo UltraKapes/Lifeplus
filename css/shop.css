@@ -169,7 +169,7 @@ float: left;
 .productname p{
 
   font-size: 3em;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
 }
 
 #aboutproduct h2{
@@ -271,9 +271,17 @@ font-size: 2em;
   margin-left: 2%;
 }
 
-.container{
+/*.container{
 
   width: auto;
   margin-right: 50px;
   margin-left: 50px;
+}*/
+
+#related h2{
+  border-top: 1.5px solid grey;
+  padding-top: 5px;
+  text-align: center;
+  font-size: 1.3em;
+  margin-bottom: 10px;
 }
