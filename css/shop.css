@@ -194,12 +194,12 @@ font-size: 2em;
 }
 
 #letscompare{
-
+  text-align: center;
   margin-top: 20px;
 }
 
 #letscompare h2{
-margin-left: 1.5%;
+
 font-size: 2em;
 
 }
@@ -232,10 +232,21 @@ font-size: 2em;
  
 }
 
+#sideA,#sideB{
+border-top: 1px solid #05C2F2; 
+}
+
+#sideA{
+border-right: 1px solid #05C2F2; 
+}
 
 #sideA h1,#sideB h1{
   font-size: 1.5em;
   text-align: center;
+}
+
+#sideA img,#sideB img{
+  margin-left: 25%;
 }
 
 .blogentries{
@@ -253,21 +264,24 @@ font-size: 2em;
 }
 
 #blogtitle{
-
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+   background-color: #05C2F2;
    margin-bottom: 10px;
 }
 
-#blogtitle h1, #blogtitle p{
-    display: inline;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 1.5em;
-    text-align: right;
 
-       
+
+#blogtitle h1, #blogtext h1{
+  
+  font-family: 'Coda', cursive;
+  font-size: 1.5em;
+ 
 }
 
 #blogtitle p{
-
+  
   margin-left: 2%;
 }
 
@@ -294,4 +308,40 @@ font-size: 2em;
 #thumbs img{
   margin-right: 1%;
   margin-left: 1%;
+}
+
+#blogtext img{
+
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+#reviewtext img{
+
+  margin-top: 20px;
+}
+
+#reviewtext ul li{
+  list-style-type: disc;
+
+
+}
+
+#reviewtext ul{
+  padding-left:2%;
+
+}
+
+#reviewtext{
+  margin-bottom: 20px;
+  
+
+}
+
+#reviewtext h3{
+  margin-top:20px;
+  margin-bottom:5px;
+  font-size: 1.25em;
+  
+
 }
