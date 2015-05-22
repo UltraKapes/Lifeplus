@@ -354,3 +354,16 @@ border-right: 1px solid #05C2F2;
 
   margin-bottom: 20px;
 }
+
+.question{
+  
+   font-weight: bold;
+   background-color:#E0E0EB;
+   font-size: 1.2em;
+   padding-bottom: 5px;
+}
+.answer{
+
+ padding-bottom: 20px;
+
+}
