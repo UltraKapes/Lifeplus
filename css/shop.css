@@ -4,6 +4,14 @@ html, body {
     height: 100%;
 }
 
+body {
+    font-family: Helvetica, Arial, san-serif;
+    line-height: 1.2em;
+}
+
+h1 {
+  margin-bottom: 10px;
+}
 
 
 #navoptions  ul li a{
@@ -32,15 +40,13 @@ transition: all ease 0.5s ;}
 
 
 #logodiv img {
-  width: auto;
-  height : auto;
-  max-height: 100%;
-  min-width: 200%;
+  width: 80px;
+  height : 28px;
 }
 
 #topnavbar{
 	background-color: #FFFFFF;
-	border-bottom: 0.5px solid #05C2F2;
+	border-bottom: 1px solid #05C2F2;
 }
 
 .bordercheck{
@@ -169,7 +175,7 @@ float: left;
 .productname p{
 
   font-size: 3em;
-  margin-bottom: 5px;
+  margin-bottom: 20px;
 }
 
 #aboutproduct h2{
